@@ -221,7 +221,9 @@ func TestTwentyFour(t *testing.T) {
 }
 
 func TestTwentyFive(t *testing.T) {
-	mySleep(10)
+	t.Log(mySleepAfter(5))
+	t.Log(mySleepSubstraction(5))
+	t.Log(mySleepTimer(5))
 }
 
 func TestTwentySix(t *testing.T) {
